@@ -37,6 +37,7 @@ phases:
       properties:
         commandPath: null
         connectionAttributes: null
+        connectionType: SSH
         executeOnDelegate: true
         host: null
         outputVars: ''
@@ -44,12 +45,15 @@ phases:
         scriptString: |-
           echo "Hello World"
           echo "I am running on the delegate"
+          echo "I am the developer"
         scriptType: BASH
         sshKeyRef: null
         sweepingOutputName: null
         sweepingOutputScope: null
         tags: ''
-        templateVariables: ''
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         timeoutMillis: 60000
     stepsInParallel: false
   - type: DISABLE_SERVICE
