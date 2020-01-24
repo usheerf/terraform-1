@@ -4,7 +4,6 @@ cloudProviderType: AWS
 deploymentType: SSH
 infrastructure:
 - type: AWS_SSH
-  awsInstanceFilter: {}
   cloudProviderName: aws canary3
   desiredCapacity: 0
   hostConnectionAttrsName: Harness U
